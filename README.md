@@ -3,4 +3,9 @@ This is a repository that serves as an example for a simple job you might have t
 
 We run a simple job to aggregate this data and from there it can either be written to file, stored in a database, send a message to a Slack channel, etc.
 
-
+## Components
+The components of this repo are:
+- `data_ingest.py` - a script that generates a mock data set
+- `generate_report.py` - a script runs a simple aggregation over the mock data
+- `requirements.txt` - a text file indicating the jobs dependencies
+- `metis.config.yml` - a file that tells Skafos how to run the jobs
